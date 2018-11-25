@@ -3,24 +3,27 @@
 	padding: 0;
 }
 body{
-	width: 700px;
-	margin: 0 auto;/*居中*/
+	background-color: #4169E1;
+	width: 380px;
+/*	height:;*/
+	margin:30px auto;/*居中*/
 	/*height: 1200px;*//*测试距离*/
 	text-align: center;
 }
 .container{
-	background-color: #f0f0f0;
+	background-color: #87CEFA;
 	/*height: 1200px;*//*测试距离*/
 }
 .header{
-	height: 450px;/*头像区域*/
+	height: 180px;/*头像区域*/
 }
-img{
-	width : 400px;
+.header img{
+	margin-top: 80px;
+	width : 100px;
 	border-radius: 50% ;
 }
-img:hover{
-	width : 450px;
+.header img:hover{
+	width : 130px;
 }
 
 .name{
@@ -28,20 +31,27 @@ img:hover{
 	height: 50px;/*名字区域*/
 	font:30px  Georgia ;
 }
+div h2{
+	font:30px pxGeorgia;
+}
 .content{
 	padding-top: 30px;
-	height: 500px;
+	height: 220px;
 }
 .content li{
 	list-style: none;
-	line-height: 3;
+	line-height: 2;
 }
-.footer{
-	padding-top:10px; 
-	border-top: 8px solid #666;
-	height: 50px;
-	background-color: #333;
+.footer img{
+	/*padding-top:10px; 
+	border-top: 8px solid #00BFFF;
+	height: 30px;
+	background-color:#00B0FF;
 	font:13px  Georgia;
-	color:  #666;
+	color:  #fff;*/
+
+	margin-bottom: 30px;
+	width : 30px;
+	border-radius: 50% ;
 }
 
